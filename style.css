@@ -8,3 +8,55 @@ p {
   font-size: 1.2rem;
   font-family: Arial;
 }
+
+a {
+  text-decoration: none;
+}
+.logo {
+  color: #fff;
+}
+
+.header {
+  background: rgb(22, 21, 21);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+}
+
+.flexh1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flexbox > div {
+  flex: 1 1 200px;
+  margin: 10px;
+}
